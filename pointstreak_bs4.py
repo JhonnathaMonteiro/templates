@@ -8,10 +8,8 @@ import re
 
 url_example = "http://pointstreak.com/players/players-division-standings.html?divisionid=111166&seasonid=19261"
 
-
 def ps_scrapy(start_url=url_example,
               base_url="http://www.pointstreak.com/players/"):
-    # TODO Modificar isso para DATAFRAME
 
     # Getting division SCHEDULE URL
     # just using regular expression, no request needed here
